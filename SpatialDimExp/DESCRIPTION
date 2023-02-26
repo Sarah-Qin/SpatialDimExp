@@ -1,0 +1,21 @@
+Package: SpatialDimExp
+Type: Package
+Title: Dimension Expansion Methods for Nonstationary Spatial Random Process
+Version: 0.1.0
+Author: Shanshan Qin, Bin Sun, Yuehua Wu, Yuejiao Fu
+Maintainer: Shanshan Qin  <ssqin267@yorku.ca>
+Description: Implement dimension expansion methods for modelling nonstationary spatial random processes. The dimension expansion method initially proposed by Bornn et al.(2012) aims to find a dimensionally sparse projection where the originally nonstationary field exhibits stationarity.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports:
+  Matrix (>= 1.2-18),
+  fields (>= 11.6),
+  matrixcalc (>= 1.0-3),
+  pracma (>= 2.2.9),
+  data.table (>= 1.13.2)
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
